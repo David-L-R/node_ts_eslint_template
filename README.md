@@ -34,16 +34,13 @@ We will discuss the configuration needed for node using:
 # create a tsconfig.json
 > npx tsc --init 
 
-# commiting will format the code
-> npx mrm@2 lint-staged
-
 # convert TS files to JS files
 > npm run build
 ```
 
 ```
 # OR everything together 
-> npm i eslint prettier eslint-config-prettier eslint-plugin-prettier node-ts typescript @types/node @typescript-eslint/eslint-plugin  @typescript-eslint/parser --save-dev
+> npm i eslint prettier eslint-config-prettier eslint-plugin-prettier nodemon typescript ts-node @types/node @typescript-eslint/eslint-plugin  @typescript-eslint/parser --save-dev
 ```
 
 ## Scripting
@@ -55,8 +52,8 @@ We will discuss the configuration needed for node using:
   "scripts": {
       "start": "nodemon index.ts"
       "build": "npx tsc"
-<!--       "lint": "eslint . --ext .ts" -->
-<!--       "prettier": "prettier --config .prettierrc 'src/**/*.ts' --write" -->
+"lint": "eslint . --ext .ts"
+"prettier": "prettier --config .prettierrc 'src/**/*.ts' --write"
   }
 }
 ```
@@ -114,4 +111,8 @@ Those files should be in the `root` folder:
 }
 ```
 
-
+## Automation 
+```
+# commiting will format the code
+> npx mrm@2 lint-staged
+```	
