@@ -16,7 +16,7 @@ We will discuss the configuration needed for node using:
 # install all ESLint & Prettier dev-dependencies
 > npm i eslint --save-dev
 > npm i prettier --save-dev
-> npm i eslit-config-prettier --save-dev
+> npm i eslint-config-prettier --save-dev
 > npm i eslint-plugin-prettier --save-dev
 
 # install typescript and node support
@@ -37,7 +37,7 @@ We will discuss the configuration needed for node using:
 
 ```
 # OR everything together 
-npm i eslint prettier eslit-config-prettier eslint-plugin-prettier node-ts typescript @types/node @typescript-eslint/eslint-plugin  @typescript-eslint/parser --save-dev
+npm i eslint prettier eslint-config-prettier eslint-plugin-prettier node-ts typescript @types/node @typescript-eslint/eslint-plugin  @typescript-eslint/parser --save-dev
 ```
 
 ## Scripting
