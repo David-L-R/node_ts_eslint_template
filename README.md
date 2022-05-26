@@ -86,7 +86,12 @@ Those files should be in the `root` folder:
 ```json
 // .prettierrc
 {
-  "": ""
+ "bracketSameLine": true,
+ "bracketSpacing": false,
+ "printWidth": 120,
+ "singleQuote": true,
+ "tabWidth": 2,
+ "useTabs": true
 }
 ```
 
