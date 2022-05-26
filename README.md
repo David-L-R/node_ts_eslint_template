@@ -43,11 +43,16 @@ We will discuss the configuration needed for node using:
 {
   "scripts": {
       "build": "npx tsc"
+      "lint": "eslint . --ext .ts"
+      "prettier": "prettier --config .prettierrc 'src/**/*.ts' --write"
   }
 }
 ```
 
 ## Configuration
+
+We are going to configure ESLint, Prettier and Typescript using configuration files. 
+Those files should be in the `root` folder:
 
 ```json
 // tsconfig.json
@@ -62,4 +67,29 @@ We will discuss the configuration needed for node using:
   },
   "exclude": ["node_modules", "tests"]
 }
+
+// Feel free to check out other options as well!
 ```
+
+```json
+// .prettierrc
+{
+  "": ""
+}
+```
+
+```json
+// .eslintrc
+{
+  "": ""
+}
+```
+
+
+```json
+// .eslintignore
+{
+  "": ""
+}
+```
+
