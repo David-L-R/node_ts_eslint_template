@@ -13,10 +13,12 @@ We will discuss the configuration needed for node using:
 # create a new project
 > npm init -y
 
-# install all dev-dependencies 
+# install all typescript dev-dependencies 
 > npm i --save-dev typescript
 > npm i --save-dev ts-node 
 > npm i --save-dev @types/node
+
+# install all ESLint & Prettier dev-dependencies
 
 # will create a tsconfig.json
 > npx tsc --init 
