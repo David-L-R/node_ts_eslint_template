@@ -1,0 +1,20 @@
+{
+  "name": "node_ts_config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/David-L-R/Node_TS_Config_Workshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/David-L-R/Node_TS_Config_Workshop/issues"
+  },
+  "homepage": "https://github.com/David-L-R/Node_TS_Config_Workshop#readme"
+}
