@@ -31,6 +31,9 @@ We will discuss the configuration needed for node using:
 # create a tsconfig.json
 > npx tsc --init 
 
+# commiting will format the code
+> npx mrm@2 lint-staged
+
 # convert TS files to JS files
 > npm run build
 ```
@@ -48,8 +51,8 @@ We will discuss the configuration needed for node using:
 {
   "scripts": {
       "build": "npx tsc"
-      "lint": "eslint . --ext .ts"
-      "prettier": "prettier --config .prettierrc 'src/**/*.ts' --write"
+<!--       "lint": "eslint . --ext .ts" -->
+<!--       "prettier": "prettier --config .prettierrc 'src/**/*.ts' --write" -->
   }
 }
 ```
@@ -97,4 +100,5 @@ Those files should be in the `root` folder:
   "": ""
 }
 ```
+
 
