@@ -69,15 +69,15 @@ Those files should be in the `root` folder:
 ```json
 // tsconfig.json
 {
-  "compilerOptions": {
-    "target": "es5",                          
-    "module": "commonjs",                     
-    "lib": ["ES2018", "DOM"], 
-    "outDir": "./build",                        
-    "strict": true,                           
-    "noImplicitAny": true,                 
-  },
-  "exclude": ["node_modules", "tests"]
+	"compilerOptions": {
+		"target": "es5",                          
+		"module": "commonjs",                     
+		"lib": ["ES2018", "DOM"], 
+		"outDir": "./build",                        
+		"strict": true,                           
+		"noImplicitAny": true,                 
+	},
+	"exclude": ["node_modules", "tests"]
 }
 
 // Feel free to check out other options as well!
@@ -86,12 +86,12 @@ Those files should be in the `root` folder:
 ```json
 // .prettierrc
 {
- "bracketSameLine": true,
- "bracketSpacing": false,
- "printWidth": 120,
- "singleQuote": true,
- "tabWidth": 2,
- "useTabs": true
+	 "bracketSameLine": true,
+	 "bracketSpacing": false,
+	 "printWidth": 120,
+	 "singleQuote": true,
+	 "tabWidth": 2,
+	 "useTabs": true
 }
 ```
 
