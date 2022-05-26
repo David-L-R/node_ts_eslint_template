@@ -98,8 +98,12 @@ Those files should be in the `root` folder:
 ```json
 // .eslintrc
 {
-  "": ""
+	"extends": ["plugin:@typescript-eslint/recommended"],
+	"parser": "@typescript-eslint/parser",
+	"plugins": ["@typescript-eslint"],
+	"rules": {}
 }
+
 ```
 
 
