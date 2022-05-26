@@ -19,6 +19,9 @@ We will discuss the configuration needed for node using:
 > npm i eslint-config-prettier --save-dev
 > npm i eslint-plugin-prettier --save-dev
 
+# install 
+> npm nodemon
+
 # install typescript and node support
 > npm i typescript --save-dev
 > npm i ts-node --save-dev 
@@ -50,6 +53,7 @@ We will discuss the configuration needed for node using:
 
 {
   "scripts": {
+      "start": "nodemon index.ts"
       "build": "npx tsc"
 <!--       "lint": "eslint . --ext .ts" -->
 <!--       "prettier": "prettier --config .prettierrc 'src/**/*.ts' --write" -->
