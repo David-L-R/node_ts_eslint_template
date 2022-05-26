@@ -37,7 +37,7 @@ We will discuss the configuration needed for node using:
 
 ```
 # OR everything together 
-npm i eslint prettier eslint-config-prettier eslint-plugin-prettier node-ts typescript @types/node @typescript-eslint/eslint-plugin  @typescript-eslint/parser --save-dev
+> npm i eslint prettier eslint-config-prettier eslint-plugin-prettier node-ts typescript @types/node @typescript-eslint/eslint-plugin  @typescript-eslint/parser --save-dev
 ```
 
 ## Scripting
