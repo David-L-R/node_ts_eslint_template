@@ -7,25 +7,35 @@ We will discuss the configuration needed for node using:
 
 ## Learning Goals
 
-## Steps
+## Installation
 
 ```bash
 # create a new project
 > npm init -y
 
-# install all typescript dev-dependencies 
-> npm i --save-dev typescript
-> npm i --save-dev ts-node 
-> npm i --save-dev @types/node
-
 # install all ESLint & Prettier dev-dependencies
+> npm i eslint --save-dev
+> npm i prettier --save-dev
+> npm i eslit-config-prettier --save-dev
+> npm i eslint-plugin-prettier --save-dev
 
-# will create a tsconfig.json
+# install typescript and node support
+> npm i typescript --save-dev
+> npm i ts-node --save-dev 
+
+# install @types for all packages
+> npm i @types/node --save-dev 
+> npm i @typescript-eslint/eslint-plugin --save-dev 
+> npm i @typescript-eslint/parser
+
+# create a tsconfig.json
 > npx tsc --init 
 
-# when you want to convert TS to JS
+# convert TS files to JS files
 > npm run build
 ```
+
+## Scripting
 
 ```json
 // package.json
@@ -36,6 +46,8 @@ We will discuss the configuration needed for node using:
   }
 }
 ```
+
+## Configuration
 
 ```json
 // tsconfig.json
