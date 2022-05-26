@@ -35,6 +35,11 @@ We will discuss the configuration needed for node using:
 > npm run build
 ```
 
+```
+# OR everything together 
+npm i eslint prettier eslit-config-prettier eslint-plugin-prettier node-ts typescript @types/node @typescript-eslint/eslint-plugin  @typescript-eslint/parser --save-dev
+```
+
 ## Scripting
 
 ```json
