@@ -10,13 +10,33 @@ We will discuss the configuration needed for node using:
 ## Steps
 
 ```bash
-> npm i typescript --save-dev
+# create a new project
+> npm init -y
+
+# install all dev-dependencies 
+> npm i --save-dev typescript
+> npm i --save-dev ts-node 
+> npm i --save-dev @types/node
+
+# will create a tsconfig.json
+> npx tsc --init 
+
+# when you want to convert TS to JS
 > npm run build
-> npx tsc --init
-> 
 ```
 
 ```json
+// package.json
+
+{
+  "scripts": {
+      "build": "npx tsc"
+  }
+}
+```
+
+```json
+// tsconfig.json
 {
   "compilerOptions": {
     "target": "es5",                          
