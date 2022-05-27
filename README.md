@@ -193,9 +193,9 @@ Open setting.json and add
 
 {
   "scripts": {
-	"start": "nodemon index.ts"
-	"build": "npx tsc"
-	"lint": "eslint . --ext .ts"
+	"start": "nodemon index.ts",
+	"build": "npx tsc",
+	"lint": "eslint . --ext .ts",
 	"prettier": "prettier --config .prettierrc 'src/**/*.ts' --write"
   }
 }
