@@ -43,11 +43,6 @@ We will discuss the configuration needed for node using:
 > npm i eslint prettier eslint-config-prettier eslint-plugin-prettier nodemon typescript ts-node @types/node @typescript-eslint/eslint-plugin  @typescript-eslint/parser --save-dev
 ```
 
-### Resources (read more)
-- 
-- 
-- prettier-eslint https://github.com/prettier/prettier-eslint
-
 ## Scripting
 
 ```json
@@ -162,7 +157,7 @@ Linting makes more sense when run before committing your code. By doing so you c
 
 https://github.com/okonet/lint-staged
 
-Or, to keep it simple:
+Or, to keep it simple ([read more](https://gist.github.com/silver-xu/1dcceaa14c4f0253d9637d4811948437#husky)):
 ```bash
 > npm i husky --save-dev
 ```
