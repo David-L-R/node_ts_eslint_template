@@ -15,12 +15,10 @@ const user: User = {
 	age: 35,
 }
 
-console.log('first', first)
-
 if (test < 1) {
 	user.push = 'push'
 }
 
-const animal = 'dog'
+let animal = 'dog'
 
-console.log('hello')
+animal = 'cat'
