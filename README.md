@@ -31,9 +31,6 @@ We will discuss the configuration needed for node using:
 > npm i @typescript-eslint/eslint-plugin --save-dev 
 > npm i @typescript-eslint/parser --save-dev 
 
-# create a tsconfig.json
-> npx tsc --init 
-
 # convert TS files to JS files
 > npm run build
 ```
@@ -63,6 +60,16 @@ We will discuss the configuration needed for node using:
 We are going to configure ESLint, Prettier and Typescript using configuration files. 
 Those files should be in the `root` folder:
 
+Don't create `tsconfig.json` by yourself! instead use this command:
+```
+# create a tsconfig.json
+> npx tsc --init 
+```
+Now, inside `tsconfig.json`, don't copy paste the following code, but look up those keys, and make sure they are uncommented and equal in value to the following keys:
+
+For example, make sure that the key `target` is equal to `es5`. 
+
+
 ### tsconfig.json
 ```json
 {
@@ -90,6 +97,8 @@ Those files should be in the `root` folder:
 Feel free to check out other options for ts-config as well!
 
 ### .prettierrc
+
+Create a `.prettierrc` file inside `root` and copy the following code into the empty file:
 ```json
 {
 	"printWidth": 120,
@@ -103,6 +112,8 @@ Feel free to check out other options for ts-config as well!
 Feel free to check out other options for prettier as well!
 
 ### .eslintrc
+
+Create a `.eslintrc` file inside `root` and copy the following code into the empty file:
 ```json
 {
 	"extends": [
@@ -130,10 +141,16 @@ Feel free to check out other options for prettier as well!
 Feel free to check out other options for eslint as well!
 
 ### .gitignore
+
+Create a `.gitignore` file inside `root` and copy the following code into the empty file:
+
 ```
 node_modules
 ```
 ### .eslintignore
+
+Create a `.eslintignore` file inside `root` and copy the following code into the empty file:
+
 ```
 node_modules
 ```
