@@ -159,7 +159,31 @@ Open setting.json and add
 
 ### Integrate ESLint into your GIT
 
-Using Husky, we can integrate ESLint in our GIT process, so to block pushing code if it is not up to standards! 
+Linting makes more sense when run before committing your code. By doing so you can ensure no errors go into the repository and enforce code style. But running a lint process on a whole project is slow, and linting results can be irrelevant. Ultimately you only want to lint files that will be committed.
+
 https://github.com/okonet/lint-staged
 
+Or, to keep it simple:
+```bash
+> npm i husky --save-dev
+```
+
+Add to `package.json`:
+```json
+{
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint"
+    }
+  }
+}
+```
+
 ### Add Emmet
+
+
+## Resources
+- [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint): Monorepo for all the tooling which enables ESLint to support TypeScript
+- typescript-eslint: [official docs](https://typescript-eslint.io/)
+- [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
+- 
