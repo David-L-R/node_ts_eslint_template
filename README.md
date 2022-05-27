@@ -173,9 +173,6 @@ Add to `package.json`:
 }
 ```
 
-### Add Emmet
-
-
 ## Resources
 - [Typescript](https://www.typescriptlang.org/): TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
 - [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint): Monorepo for all the tooling which enables ESLint to support TypeScript
