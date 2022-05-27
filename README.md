@@ -152,6 +152,11 @@ Mac: `command` + `shift` + `p`
 
 <img width="726" alt="Screenshot 2022-05-27 at 11 16 31" src="https://user-images.githubusercontent.com/31222514/170670902-3d00f06f-8036-4bac-b602-0f1454b2c45f.png">
 
+Make sure prettier format the code after save:
+1. Go to settings
+1. Search "format on save"
+1. Mark ✔ for "format on save" and ✔ for "foamrt on paste" (so when you paste a piece of code, it will be formatted automatically)
+
 ## Bonus: integrate ESLint into your GIT
 
 Using Husky, we can integrate ESLint in our GIT process, so to block pushing code if it is not up to standards! 
