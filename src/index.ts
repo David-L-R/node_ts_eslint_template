@@ -1,14 +1,26 @@
 const test = 3
 
-if (true) {
+if (test > 3) {
 	console.log('what do you want')
 }
 
-const user = {
+type User = {
+	name: string
+	age: number
+	push?: string
+}
+
+const user: User = {
 	name: 'david',
 	age: 35,
 }
 
-var animal = 'dog'
+console.log('first', first)
+
+if (test < 1) {
+	user.push = 'push'
+}
+
+const animal = 'dog'
 
 console.log('hello')
