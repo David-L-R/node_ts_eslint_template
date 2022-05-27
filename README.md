@@ -57,26 +57,6 @@ By the end of this tutorial, you will be able to
 npm i eslint prettier eslint-config-prettier eslint-plugin-prettier nodemon typescript ts-node @types/node @typescript-eslint/eslint-plugin  @typescript-eslint/parser --save-dev
 ```
 
-## Scripting
-
-```json
-// package.json
-
-{
-  "scripts": {
-	"start": "nodemon index.ts"
-	"build": "npx tsc"
-	"lint": "eslint . --ext .ts"
-	"prettier": "prettier --config .prettierrc 'src/**/*.ts' --write"
-  }
-}
-```
-
-### TS to JS
-```bash
-npm run build
-```
-
 ## Configuration
 
 We are going to configure ESLint, Prettier and Typescript using configuration files. 
@@ -205,6 +185,27 @@ Open setting.json and add
  	
 }
 ```
+
+## Scripting
+
+```json
+// package.json
+
+{
+  "scripts": {
+	"start": "nodemon index.ts"
+	"build": "npx tsc"
+	"lint": "eslint . --ext .ts"
+	"prettier": "prettier --config .prettierrc 'src/**/*.ts' --write"
+  }
+}
+```
+
+### TS to JS
+```bash
+npm run build
+```
+
 
 ## Bonus
 
