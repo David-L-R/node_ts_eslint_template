@@ -16,7 +16,6 @@ We will discuss the configuration needed for node using:
 # install all ESLint & Prettier dev-dependencies
 > npm i eslint --save-dev
 > npm i prettier --save-dev
-> npm i prettier-eslint --save-dev #optional
 > npm i eslint-config-prettier --save-dev
 > npm i eslint-plugin-prettier --save-dev
 
@@ -41,7 +40,7 @@ We will discuss the configuration needed for node using:
 
 ```bash
 # OR everything together 
-> npm i eslint prettier prettier-eslint eslint-config-prettier eslint-plugin-prettier nodemon typescript ts-node @types/node @typescript-eslint/eslint-plugin  @typescript-eslint/parser --save-dev
+> npm i eslint prettier eslint-config-prettier eslint-plugin-prettier nodemon typescript ts-node @types/node @typescript-eslint/eslint-plugin  @typescript-eslint/parser --save-dev
 ```
 
 ### Resources (read more)
@@ -185,5 +184,5 @@ Add to `package.json`:
 ## Resources
 - [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint): Monorepo for all the tooling which enables ESLint to support TypeScript
 - typescript-eslint: [official docs](https://typescript-eslint.io/)
-- [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
-- 
+- [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier): Turns off all rules that are unnecessary or might conflict with Prettier.
+- [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier): Runs Prettier as an ESLint rule and reports differences as individual ESLint issues.
