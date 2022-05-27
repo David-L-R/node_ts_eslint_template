@@ -142,4 +142,6 @@ Mac: `command` + `shift` + `p`
 
 <img width="726" alt="Screenshot 2022-05-27 at 11 15 08" src="https://user-images.githubusercontent.com/31222514/170669986-7db4cedd-2b85-4164-b6d9-92b65bc93207.png">
 
-<img width="726" alt="Screenshot 2022-05-27 at 11 15 08" src="https://user-images.githubusercontent.com/31222514/170670205-3a61d82a-5a9a-405c-905b-5f163e8a9062.png">
+<img width="726" alt="Screenshot 2022-05-27 at 11 16 31" src="https://user-images.githubusercontent.com/31222514/170670902-3d00f06f-8036-4bac-b602-0f1454b2c45f.png">
+
+
