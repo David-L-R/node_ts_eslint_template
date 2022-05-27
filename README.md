@@ -138,13 +138,6 @@ node_modules
 node_modules
 ```
 
-## Automation 
-
-```
-# commiting will format the code
-> npx mrm@2 lint-staged
-```	
-
 ## Configure IDE (vs-code)
 
 ### Install Extension
