@@ -107,14 +107,17 @@ Those files should be in the `root` folder:
 	"rules": {}
 }
 
+```json
+// .gitignore
+node_modules
+```
+
 ```
 
 
 ```json
 // .eslintignore
-{
-  "": ""
-}
+node_modules
 ```
 
 ## Automation 
