@@ -106,14 +106,12 @@ Those files should be in the `root` folder:
 	"plugins": ["@typescript-eslint"],
 	"rules": {}
 }
+```
 
 ```json
 // .gitignore
 node_modules
 ```
-
-```
-
 
 ```json
 // .eslintignore
