@@ -39,7 +39,7 @@ We will discuss the configuration needed for node using:
 > npm run build
 ```
 
-```
+```bash
 # OR everything together 
 > npm i eslint prettier prettier-eslint eslint-config-prettier eslint-plugin-prettier nodemon typescript ts-node @types/node @typescript-eslint/eslint-plugin  @typescript-eslint/parser --save-dev
 ```
