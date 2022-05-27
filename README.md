@@ -30,7 +30,7 @@ We will discuss the configuration needed for node using:
 # install @types for all packages
 > npm i @types/node --save-dev 
 > npm i @typescript-eslint/eslint-plugin --save-dev 
-> npm i @typescript-eslint/parser
+> npm i @typescript-eslint/parser --save-dev 
 
 # create a tsconfig.json
 > npx tsc --init 
