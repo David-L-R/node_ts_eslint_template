@@ -67,12 +67,22 @@ Those files should be in the `root` folder:
 ```json
 {
 	"compilerOptions": {
-		"target": "es5",                          
-		"module": "commonjs",                     
-		"lib": ["ES2018", "DOM"], 
-		"outDir": "./build",                        
-		"strict": true,                           
-		"noImplicitAny": true,                 
+		"target": "es5", /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,           
+		"lib": ["ES2018", "DOM"], /* Specify a set of bundled library declaration files that describe the target runtime environment. */,
+
+		"module": "commonjs", /* Specify what module code is generated. */                     
+		"allowJs": true /* Allow JavaScript files to be a part of your program. Use the 'checkJS' option to get errors from these files. */,
+		"outDir": "./build", /* Specify an output folder for all emitted files. */,                  
+		"esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
+		"forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+
+
+		"strict": true /* Enable all strict type-checking options. */,
+		"noImplicitAny": true /* Enable error reporting for expressions and declarations with an implied 'any' type. */,
+		"strictNullChecks": true /* When type checking, take into account 'null' and 'undefined'. */,            
+		
+		"skipDefaultLibCheck": true /* Skip type checking .d.ts files that are included with TypeScript. */,
+		"skipLibCheck": true /* Skip type checking all .d.ts files. */
 	},
 	"exclude": ["node_modules", "tests"]
 }
@@ -81,14 +91,13 @@ Feel free to check out other options for ts-config as well!
 
 ### .prettierrc
 ```json
-
 {
-	 "bracketSameLine": true,
-	 "bracketSpacing": false,
-	 "printWidth": 120,
-	 "singleQuote": true,
-	 "tabWidth": 2,
-	 "useTabs": true
+	"printWidth": 120,
+	"singleQuote": true,
+	"tabWidth": 2,
+	"useTabs": true,
+	"semi": false,
+	"trailingComma": "es5"
 }
 ```
 Feel free to check out other options for prettier as well!
@@ -96,10 +105,26 @@ Feel free to check out other options for prettier as well!
 ### .eslintrc
 ```json
 {
-	"extends": ["plugin:@typescript-eslint/recommended"],
+	"extends": [
+		"plugin:@typescript-eslint/recommended",
+		"prettier",
+		"eslint:recommended",
+		"plugin:@typescript-eslint/recommended"
+	],
 	"parser": "@typescript-eslint/parser",
-	"plugins": ["@typescript-eslint"],
-	"rules": {}
+	"plugins": ["@typescript-eslint", "prettier"],
+	"rules": {
+		"prettier/prettier": 2, // Means error,
+		"no-console": 1,
+		"no-var": 2
+	},
+	"parserOptions": {
+		"ecmaVersion": 2018,
+		"sourceType": "module"
+	},
+	"env": {
+		"es6": true
+	}
 }
 ```
 Feel free to check out other options for eslint as well!
