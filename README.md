@@ -111,11 +111,11 @@ Feel free to check out other options for prettier as well!
 Feel free to check out other options for eslint as well!
 
 ### .gitignore
-```json
+```rc
 node_modules
 ```
 ### .eslintignore
-```json
+```rc
 node_modules
 ```
 
