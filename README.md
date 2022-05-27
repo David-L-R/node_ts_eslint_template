@@ -16,6 +16,7 @@ We will discuss the configuration needed for node using:
 # install all ESLint & Prettier dev-dependencies
 > npm i eslint --save-dev
 > npm i prettier --save-dev
+> npm i prettier-eslint --save-dev
 > npm i eslint-config-prettier --save-dev
 > npm i eslint-plugin-prettier --save-dev
 
@@ -40,7 +41,7 @@ We will discuss the configuration needed for node using:
 
 ```
 # OR everything together 
-> npm i eslint prettier eslint-config-prettier eslint-plugin-prettier nodemon typescript ts-node @types/node @typescript-eslint/eslint-plugin  @typescript-eslint/parser --save-dev
+> npm i eslint prettier prettier-eslint eslint-config-prettier eslint-plugin-prettier nodemon typescript ts-node @types/node @typescript-eslint/eslint-plugin  @typescript-eslint/parser --save-dev
 ```
 
 ## Scripting
@@ -146,4 +147,6 @@ Mac: `command` + `shift` + `p`
 
 <img width="726" alt="Screenshot 2022-05-27 at 11 16 31" src="https://user-images.githubusercontent.com/31222514/170670902-3d00f06f-8036-4bac-b602-0f1454b2c45f.png">
 
+## Bonus: integrate ESLint into your GIT
 
+Using Husky, we can integrate ESLint in our GIT process, so to block pushing code if it is not up to standards! 
