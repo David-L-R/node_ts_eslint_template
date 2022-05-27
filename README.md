@@ -126,9 +126,9 @@ node_modules
 > npx mrm@2 lint-staged
 ```	
 
-## VSCode Extensions
+## Configure IDE (vs-code)
 
-### Install in vs-code
+### Install Extension
 
 **ESLint:** Will integrate ESLint erros into the IDE as you make them!
 https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
@@ -137,25 +137,23 @@ https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
 * If the code is not being formatted on-save, there is an error in the code that needs to be solved first!
 
-### Choose formatter
-
-After installing Prettier, you need to make sure the IDE uses it as the default formatter:
+### Configure Extensions
 
 Open setting.json and add
 ```json
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "eslint.validate": ["javascript"],
+{
+ 	"editor.defaultFormatter": "esbenp.prettier-vscode", // prettier as default!
+	"editor.formatOnSave": true, // saving code will format it
+ 	"editor.formatOnPaste": true, // [optional]: pasting code will format it
+	
+	// Eslint
+	"eslint.validate": ["javascript"],
+	"editor.codeActionsOnSave": {
+   	"source.fixAll.eslint": true
+	},
+ 	
+}
 ```
-
-Make sure prettier format the code after save:
-1. Go to settings
-1. Search "format on save"
-1. Mark ✔ for "format on save" and ✔ for "foamrt on paste" (so when you paste a piece of code, it will be formatted automatically)
 
 ## Bonus
 
