@@ -1,4 +1,15 @@
-# Node Configuration Workshop
+# Node Configuration Workshop!
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/31222514/170706080-e06eb791-67d6-4736-afe8-89ae10190bb7.png" alt="typescript" width="20%" />
+
+<img src="https://user-images.githubusercontent.com/31222514/170706110-19bb3eb1-a80c-48ee-a121-53f95647d644.png" alt="eslint" width="20%" />
+
+<img src="https://user-images.githubusercontent.com/31222514/170706125-0ba5e83f-1148-49df-bbae-7adec2768c87.png" alt="prettier" width="20%" />
+
+</p>
+
+
 
 We will discuss the configuration needed for node using: 
 1. Typescript
