@@ -116,3 +116,30 @@ Those files should be in the `root` folder:
 # commiting will format the code
 > npx mrm@2 lint-staged
 ```	
+
+## VSCode Extensions
+
+### Install in vs-code
+**ESLint**
+https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+
+**Prettier**
+https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+
+### Choose formatter
+
+After installing Prettier, you need to make sure the IDE uses it as the default formatter:
+
+1. Open command the pallete:
+Linux/Win10: `ctrl` + `shift` + `p`
+Mac: `command` + `shift` + `p`
+
+2. Type "document"
+
+3. Choose "Format Document With..."
+
+4. Choose Prettier :) 
+
+<img width="726" alt="Screenshot 2022-05-27 at 11 15 08" src="https://user-images.githubusercontent.com/31222514/170669986-7db4cedd-2b85-4164-b6d9-92b65bc93207.png">
+
+<img width="726" alt="Screenshot 2022-05-27 at 11 15 08" src="https://user-images.githubusercontent.com/31222514/170670205-3a61d82a-5a9a-405c-905b-5f163e8a9062.png">
