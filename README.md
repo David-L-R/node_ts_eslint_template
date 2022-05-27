@@ -7,6 +7,13 @@ We will discuss the configuration needed for node using:
 
 ## Learning Goals
 
+By the end of this tutorial, you will be able to
+- Initiate a Typescript project
+- Add relevant scripts
+- Configure linters for the project
+- Configure formatting for the project
+- Extend additional rules, if you want
+
 ## Installation
 
 ```bash
