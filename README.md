@@ -1,4 +1,4 @@
-# Node Configuration Workshop!
+# Setting Up Node Environment
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/31222514/170706080-e06eb791-67d6-4736-afe8-89ae10190bb7.png" alt="typescript" width="20%" />
