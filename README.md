@@ -20,7 +20,7 @@ We will discuss the configuration needed for node using:
 > npm i eslint-plugin-prettier --save-dev # Runs Prettier as an ESLint rule and reports differences as individual ESLint issues.
 
 # install 
-> npm nodemon
+> npm nodemon #nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
 
 # install typescript and node support
 > npm i typescript --save-dev
@@ -182,7 +182,9 @@ Add to `package.json`:
 
 
 ## Resources
+- [Typescript](https://www.typescriptlang.org/): TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
 - [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint): Monorepo for all the tooling which enables ESLint to support TypeScript
 - typescript-eslint: [official docs](https://typescript-eslint.io/)
 - [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier): Turns off all rules that are unnecessary or might conflict with Prettier.
 - [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier): Runs Prettier as an ESLint rule and reports differences as individual ESLint issues.
+- [nodemon](https://www.npmjs.com/package/nodemon): nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
