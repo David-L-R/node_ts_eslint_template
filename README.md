@@ -14,10 +14,10 @@ We will discuss the configuration needed for node using:
 > npm init -y
 
 # install all ESLint & Prettier dev-dependencies
-> npm i eslint --save-dev
-> npm i prettier --save-dev
-> npm i eslint-config-prettier --save-dev
-> npm i eslint-plugin-prettier --save-dev
+> npm i eslint --save-dev # linter (code analysis tool used to flag programming errors)
+> npm i prettier --save-dev # opinionated code formatter
+> npm i eslint-config-prettier --save-dev # Turns off all rules that are unnecessary or might conflict with Prettier.
+> npm i eslint-plugin-prettier --save-dev # Runs Prettier as an ESLint rule and reports differences as individual ESLint issues.
 
 # install 
 > npm nodemon
