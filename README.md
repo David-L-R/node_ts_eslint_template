@@ -69,8 +69,8 @@ We will discuss the configuration needed for node using:
 We are going to configure ESLint, Prettier and Typescript using configuration files. 
 Those files should be in the `root` folder:
 
+### tsconfig.json
 ```json
-// tsconfig.json
 {
 	"compilerOptions": {
 		"target": "es5",                          
@@ -82,12 +82,12 @@ Those files should be in the `root` folder:
 	},
 	"exclude": ["node_modules", "tests"]
 }
-
-// Feel free to check out other options as well!
 ```
+Feel free to check out other options for ts-config as well!
 
+### .prettierrc
 ```json
-// .prettierrc
+
 {
 	 "bracketSameLine": true,
 	 "bracketSpacing": false,
@@ -97,9 +97,10 @@ Those files should be in the `root` folder:
 	 "useTabs": true
 }
 ```
+Feel free to check out other options for prettier as well!
 
+### .eslintrc
 ```json
-// .eslintrc
 {
 	"extends": ["plugin:@typescript-eslint/recommended"],
 	"parser": "@typescript-eslint/parser",
@@ -107,14 +108,14 @@ Those files should be in the `root` folder:
 	"rules": {}
 }
 ```
+Feel free to check out other options for eslint as well!
 
+### .gitignore
 ```json
-// .gitignore
 node_modules
 ```
-
+### .eslintignore
 ```json
-// .eslintignore
 node_modules
 ```
 
