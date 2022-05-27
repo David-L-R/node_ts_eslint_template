@@ -50,10 +50,10 @@ We will discuss the configuration needed for node using:
 
 {
   "scripts": {
-      "start": "nodemon index.ts"
-      "build": "npx tsc"
-"lint": "eslint . --ext .ts"
-"prettier": "prettier --config .prettierrc 'src/**/*.ts' --write"
+	"start": "nodemon index.ts"
+	"build": "npx tsc"
+	"lint": "eslint . --ext .ts"
+	"prettier": "prettier --config .prettierrc 'src/**/*.ts' --write"
   }
 }
 ```
