@@ -120,11 +120,13 @@ Those files should be in the `root` folder:
 ## VSCode Extensions
 
 ### Install in vs-code
-**ESLint**
+
+**ESLint:** Will integrate ESLint erros into the IDE as you make them!
 https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 
-**Prettier**
+**Prettier:** Will save your code every time you save the file! 
 https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+* If the code is not being formatted on-save, there is an error in the code that needs to be solved first!
 
 ### Choose formatter
 
