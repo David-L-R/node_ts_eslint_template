@@ -16,7 +16,7 @@ We will discuss the configuration needed for node using:
 # install all ESLint & Prettier dev-dependencies
 > npm i eslint --save-dev
 > npm i prettier --save-dev
-> npm i prettier-eslint --save-dev
+> npm i prettier-eslint --save-dev #optional
 > npm i eslint-config-prettier --save-dev
 > npm i eslint-plugin-prettier --save-dev
 
@@ -43,6 +43,11 @@ We will discuss the configuration needed for node using:
 # OR everything together 
 > npm i eslint prettier prettier-eslint eslint-config-prettier eslint-plugin-prettier nodemon typescript ts-node @types/node @typescript-eslint/eslint-plugin  @typescript-eslint/parser --save-dev
 ```
+
+### Resources (read more)
+- 
+- 
+- prettier-eslint https://github.com/prettier/prettier-eslint
 
 ## Scripting
 
@@ -150,3 +155,4 @@ Mac: `command` + `shift` + `p`
 ## Bonus: integrate ESLint into your GIT
 
 Using Husky, we can integrate ESLint in our GIT process, so to block pushing code if it is not up to standards! 
+https://github.com/okonet/lint-staged
