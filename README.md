@@ -25,12 +25,14 @@ By the end of this tutorial, you will be able to
 - Configure formatting for the project
 - Extend additional rules, if you want
 
+## Creating a new project
+```bash
+> npm init -y
+```
+
 ## Installation
 
 ```bash
-# create a new project
-> npm init -y
-
 # install all ESLint & Prettier dev-dependencies
 > npm i eslint --save-dev # linter (code analysis tool used to flag programming errors)
 > npm i prettier --save-dev # opinionated code formatter
@@ -48,14 +50,11 @@ By the end of this tutorial, you will be able to
 > npm i @types/node --save-dev 
 > npm i @typescript-eslint/eslint-plugin --save-dev 
 > npm i @typescript-eslint/parser --save-dev 
-
-# convert TS files to JS files
-> npm run build
 ```
 
+### OR everything together 
 ```bash
-# OR everything together 
-> npm i eslint prettier eslint-config-prettier eslint-plugin-prettier nodemon typescript ts-node @types/node @typescript-eslint/eslint-plugin  @typescript-eslint/parser --save-dev
+npm i eslint prettier eslint-config-prettier eslint-plugin-prettier nodemon typescript ts-node @types/node @typescript-eslint/eslint-plugin  @typescript-eslint/parser --save-dev
 ```
 
 ## Scripting
@@ -71,6 +70,11 @@ By the end of this tutorial, you will be able to
 	"prettier": "prettier --config .prettierrc 'src/**/*.ts' --write"
   }
 }
+```
+
+### TS to JS
+```bash
+npm run build
 ```
 
 ## Configuration
