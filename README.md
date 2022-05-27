@@ -42,7 +42,7 @@ By the end of this tutorial, you will be able to
 
 # install typescript and node support
 > npm i typescript --save-dev
-> npm i ts-node --save-dev 
+> npm i ts-node --save-dev # Enabling you to directly execute TypeScript on Node.js without precompiling. 
 
 # install @types for all packages
 > npm i @types/node --save-dev 
@@ -226,8 +226,9 @@ Add to `package.json`:
 }
 ```
 
-## Resources
+## Read more
 - [Typescript](https://www.typescriptlang.org/): TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
+- [ts-node](https://typestrong.org/ts-node/docs/): Enabling you to directly execute TypeScript on Node.js
 - [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint): Monorepo for all the tooling which enables ESLint to support TypeScript
 - typescript-eslint: [official docs](https://typescript-eslint.io/)
 - [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier): Turns off all rules that are unnecessary or might conflict with Prettier.
