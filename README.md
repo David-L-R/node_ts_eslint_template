@@ -155,7 +155,6 @@ Create a `.eslintrc` file inside `root` and copy the following code into the emp
 	"parser": "@typescript-eslint/parser",
 	"plugins": ["@typescript-eslint", "prettier"],
 	"rules": {
-		"prettier/prettier": 2, // Means error,
 		"no-console": 1,
 		"no-var": 2
 	},
