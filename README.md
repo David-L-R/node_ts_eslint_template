@@ -57,6 +57,30 @@ By the end of this tutorial, you will be able to
 npm i eslint prettier eslint-config-prettier eslint-plugin-prettier nodemon typescript ts-node @types/node @typescript-eslint/eslint-plugin  @typescript-eslint/parser --save-dev
 ```
 
+## Testing our changes
+
+Create a `src` folder and inside create a `index.ts` file. This file can be deleted later, but for now, we are going to have some code in it so we can see the effect of our configurations.
+
+In the `index.ts` file write:
+```typescript
+var favoriteAnimal = "cat"
+favoriteAnimal = "dog"
+
+var name = "joe"
+
+const user = {
+   name: "john doe",
+   age: 20
+}
+
+console.log("hello world!"
+```
+After finishing with Configuration section, go to the file and save it, you should be able to see the changes: 
+
+1. `var` should change to `let` or `const`, depending if the variable was redefined)
+2. You should see a warning under `console.log` saying `Unexpected console statement.eslintno-console` (at the end of the description, in the last line)
+3. Chaning `tabWidth` in `.prettierrc` (see Configuration section) should change the object's properties indentation (space between the start of the line and the code).
+
 ## Configuration
 
 We are going to configure ESLint, Prettier and Typescript using configuration files. 
@@ -103,15 +127,21 @@ Feel free to check out other options for ts-config as well!
 Create a `.prettierrc` file inside `root` and copy the following code into the empty file:
 ```json
 {
-	"printWidth": 120,
-	"singleQuote": true,
-	"tabWidth": 2,
-	"useTabs": true,
-	"semi": false,
-	"trailingComma": "es5"
+       "printWidth": 120,
+        "singleQuote": true,
+        "tabWidth": 4,
+        "useTabs": false,
+        "editor.formatOnSave": true,
+        "singleAttributePerLine": true,
+        "semi": false,
+        "trailingComma": "es5"
 }
 ```
 Feel free to check out other options for prettier as well!
+
+`printWidth` can be changed to a smaller number if you want narrower code (it will break the line sooner) and to a larger number for a wider code lines.
+
+Change `tabWitdh` to change the indentation (space between the start of the line and the code). Try changing it to `2` (default) or to `8`. Then go to `index.ts` and save the file. You should see the different spaces' size.
 
 ### .eslintrc
 
