@@ -75,11 +75,6 @@ const user = {
 
 console.log("hello world!"
 ```
-After finishing with Configuration section, go to the file and save it, you should be able to see the changes: 
-
-1. `var` should change to `let` or `const`, depending if the variable was redefined)
-2. You should see a warning under `console.log` saying `Unexpected console statement.eslintno-console` (at the end of the description, in the last line)
-3. Chaning `tabWidth` in `.prettierrc` (see Configuration section) should change the object's properties indentation (space between the start of the line and the code).
 
 ## Configuration
 
@@ -121,6 +116,10 @@ For example, make sure that the key `target` is equal to `es5`.
 }
 ```
 Feel free to check out other options for ts-config as well!
+
+Go to `index.ts` and save the file. You should see the following changes:
+1. `var` should change to `let` or `const`, depending if the variable was redefined)
+2. You should see a warning under `console.log` saying `Unexpected console statement.eslintno-console` (at the end of the description, in the last line)
 
 ### .prettierrc
 
