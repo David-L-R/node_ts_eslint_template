@@ -57,6 +57,12 @@ By the end of this tutorial, you will be able to
 npm i eslint prettier eslint-config-prettier eslint-plugin-prettier nodemon typescript ts-node @types/node @typescript-eslint/eslint-plugin  @typescript-eslint/parser --save-dev
 ```
 
+### Or with YARN
+```bash
+yarn add eslint prettier eslint-config-prettier eslint-plugin-prettier nodemon typescript ts-node @types/node @typescript-eslint/eslint-plugin  @typescript-eslint/parser --dev
+```
+
+
 ## Testing our changes
 
 Create a `src` folder and inside create a `index.ts` file. This file can be deleted later, but for now, we are going to have some code in it so we can see the effect of our configurations.
